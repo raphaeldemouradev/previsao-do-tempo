@@ -1,0 +1,77 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh;
+    height: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80');
+}
+
+main.caixa-maior {
+    background-color: #000000d3;
+    border-radius: 25px;
+    padding: 20px;
+    width: 95%;
+    max-width: 450px;
+}
+
+input {
+    color: white;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 20px;
+    background-color: #7c7c7c2b;
+    width: calc(100% - 100px);
+}
+
+button {
+    background-color: #7c7c7c2b;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px;
+    color: white;
+    cursor: pointer;
+}
+
+.img-busca {
+    width: 20px;
+}
+
+.caixa-media {
+    margin-top: 30px;
+    color: white;
+}
+
+.cidade {
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.temp {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+div.caixa-menor {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.texto-previsao {
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+
+.umidade {
+    margin-top: 20px;
+}
