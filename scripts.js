@@ -21,3 +21,10 @@ function cliqueiNoBotao() {
 
     buscarCidade(cidade);
 }
+
+document.addEventListener('keydown', function (event) {
+    if (event.key === 'Enter') {
+        const cidade = document.querySelector('.input-cidade').value;
+        buscarCidade(cidade);
+    }
+});

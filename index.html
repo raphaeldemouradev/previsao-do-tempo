@@ -8,25 +8,30 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <head></head>
-    <main class="caixa-maior">
-        <input class="input-cidade" placeholder="Digite a cidade" type="text">
+    <header><h1>Pevisão do Tempo</h1></header>
+    <main class="caixa-principal">
+        <div class="caixa-maior">
+            <input class="input-cidade" placeholder="Digite a cidade" type="text">
 
-        <button class="botao-busca" onclick="cliqueiNoBotao()">
-            <img class="img-busca" src="https://www.svgrepo.com/show/488200/find.svg" alt="busca">
-        </button>
+            <button class="botao-busca" onclick="cliqueiNoBotao()">
+                <div class="img-busca">🔍</div>
+            </button>
 
-        <div class="caixa-media">
-            <h2 class="cidade">Previsão em Curitiba</h2>
-            <p class="temp">20°C</p>
+            <div class="caixa-media">
+                <h2 class="cidade">Aguardando...</h2>
+                <p class="temp">0°C</p>
 
-            <div class="caixa-menor">
-                <img class="img-previsao" src="https://openweathermap.org/img/wn/04n.png" alt="icone-info-tempo">
-                <p class="texto-previsao">Nublado</p>
+                <div class="caixa-menor">
+                    <img class="img-previsao" src="https://openweathermap.org/img/wn/04n.png" alt="icone-info-tempo">
+                    <p class="texto-previsao">...</p>
+                </div>
+
+                <p class="umidade">Umidade: 0%</p>
             </div>
-
-            <p class="umidade">Umidade: 80%</p>
         </div>
     </main>
+    <footer>
+        <p>Desenvolvido por <a href="https://github.com/raphaeldemouradev">Raphael.Dev</a></p>
+    </footer>
 </body>
 </html
